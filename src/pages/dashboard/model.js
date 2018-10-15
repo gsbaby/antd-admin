@@ -50,13 +50,14 @@ export default modelExtend(model, {
     * queryWeather ({
       payload = {},
     }, { call, put }) {
-      payload.location = 'shenzhen'
+      payload.location = 'wuhu'
       const result = yield call(weatherService.query, payload)
       const { success } = result
       if (success) {
         const data = result.results[0]
         const weather = {
           city: data.location.name,
+          dateTime: new Date(data.last_update).format("hh:mm:ss"),
           temperature: data.now.temperature,
           name: data.now.text,
           icon: `//s5.sencdn.com/web/icons/3d_50/${data.now.code}.png`,

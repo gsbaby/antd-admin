@@ -31,7 +31,7 @@ const List = ({
       title: 'Avatar',
       dataIndex: 'avatar',
       key: 'avatar',
-      width: 64,
+      width: 80,
       className: styles.avatar,
       render: text => <img alt="avatar" width={24} src={text} />,
     }, {

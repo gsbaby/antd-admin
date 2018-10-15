@@ -19,7 +19,8 @@ function Weather ({
         </div>
         <div className={styles.right}>
           <h1 className={styles.temperature}>{`${temperature}°`}</h1>
-          <p className={styles.description}>{city},{dateTime}</p>
+          <p className={styles.description}>{city}</p>
+          <p className={styles.dateTime}>最新发布时间：今天 {dateTime}</p>
         </div>
       </div>
     </Spin>)

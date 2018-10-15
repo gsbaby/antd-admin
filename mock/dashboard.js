@@ -57,11 +57,11 @@ const Dashboard = Mock.mock({
     },
   ],
   user: {
-    name: 'zuiidea',
-    email: 'zuiiidea@.gmail.com',
+    name: 'nasa.gaosong',
+    email: 'nasa.gaosong@.gmail.com',
     sales: 3241,
     sold: 3556,
-    avatar: 'http://tva4.sinaimg.cn/crop.0.0.996.996.180/6ee6a3a3jw8f0ks5pk7btj20ro0rodi0.jpg',
+    avatar: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539598062333&di=af11178bbfc72d8bafaf6fd268368902&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F32fa828ba61ea8d3d8d6c33f9c0a304e251f5810.jpg',
   },
   'completed|12': [
     {
@@ -95,10 +95,10 @@ const Dashboard = Mock.mock({
     },
   ],
   quote: {
-    name: 'Joho Doe',
-    title: 'Graphic Designer',
-    content: 'I\'m selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can\'t handle me at my worst, then you sure as hell don\'t deserve me at my best.',
-    avatar: 'http://img.hb.aicdn.com/bc442cf0cc6f7940dcc567e465048d1a8d634493198c4-sPx5BR_fw236',
+    name: 'GaoSong',
+    title: 'nasa.gaosong',
+    content: '进行更改，测试是否这样进行操作！---测试成功！！！',
+    avatar: 'http://c.hiphotos.baidu.com/image/pic/item/8b13632762d0f703fb8b190102fa513d2697c536.jpg',
   },
   numbers: [
     {

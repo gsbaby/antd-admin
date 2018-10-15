@@ -10,7 +10,10 @@ const { SubMenu } = Menu
 const Header = ({
   user, logout, switchSider, siderFold, isNavbar, menuPopoverVisible, location, switchMenuPopover, navOpenKeys, changeOpenKeys, menu,
 }) => {
-  let handleClickMenu = e => e.key === 'logout' && logout()
+  let handleClickMenu = e => e.key === 'logout' && logout();
+  let handleClickEmail=()=>{
+    alert("ssss");
+  }
   const menusProps = {
     menu,
     siderFold: false,
@@ -37,7 +40,7 @@ const Header = ({
         </div>}
       <div className={styles.rightWarpper}>
         <div className={styles.button}>
-          <Icon type="mail" />
+          <Icon type="mail" onClick={handleClickEmail}/>
         </div>
         <Menu mode="horizontal" onClick={handleClickMenu}>
           <SubMenu
